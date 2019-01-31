@@ -1,0 +1,205 @@
+    
+@font-face {
+  font-family: sofia;
+  src: url(../fonts/sofia.otf);
+}
+
+.fa,.fa-times{
+    font-size: 30px;
+    float: right;
+    color: white;
+}
+#content{
+        display: none;
+    background-color: #2c3e50;
+    position: fixed;
+    left: 10%;
+    top: 15%;
+     
+}
+td{
+    padding: 20px;
+    text-align: center;
+    min-width: 80px;
+  
+}
+table{
+    font-size: 14.5px;
+    color: #ECF0F1;
+    background-color:#34495E;
+      border-collapse: collapse;
+    
+}
+#close{
+    min-width: 30px;
+}
+#header{
+     background-color: #2c3e50;
+}
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+        
+        #dge_span {
+            width: 100px;
+            height: 30px;
+            position: fixed;
+            bottom: 150px;
+            right: 200px;
+            color: white;
+        }
+        
+        #dro {
+            width: auto;
+            height: 75px;
+            position: fixed;
+            bottom: 50px;
+            right: 20px;
+            background: transparent;
+            border: 1px black solid;
+            border-radius: 3px;
+            font-family: sofia, cursive;
+            font-size: 45px;
+            text-align: center;
+            
+        }
+       
+
+
+#tavdapirveli_dro span,
+#shesacvleli_paneli span,
+#shecvlili_dro span
+        {
+            width: 70px;
+            height: 50px;
+        }
+        
+       input[type="button"]{
+            height: 100%;
+            width: 50px;
+            font-family: sofia, cursive;
+            font-size: 14px;
+        }
+  
+        #shesacvleli_paneli,
+        #shecvlili_dro {
+            display: none;
+        }
+        
+        #shesacvleli_paneli {
+            margin: 0;
+            padding: 0;
+        }
+        
+  
+        
+    #cap {
+    width: 600px;
+    height: 40px;
+    background-color: rgba(12, 221, 228, 0.6);
+    font-size: 36px;
+    display: none;
+    border: solid 1px white;
+    border-radius: 3px;
+    font-size: 20;
+    color: wheat;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 400px;
+    text-align: center;
+}
+ 
+.look {
+    margin-top: 20px;
+    width: 196px;
+    height: 35px;
+    background-color: rgba(22, 31, 39, 0.84);
+    color: white;
+    text-align: center;
+    font-size: 20;
+}
+
+
+
+#dro {
+    /* vertical-align: middle; */
+    border: solid;
+    color: white;
+    background-color: rgba(22, 31, 39, 0.84);
+    width: 300px;
+    height: 150px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 1px transparent solid;
+    font-family: sofia, cursive;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+    /* padding: 0; */
+    /* margin-top: 20px; */
+    /* display: block; */
+}
+.inputs {
+    text-align: center;
+    font-size: 30;
+    border: 1px solid #2c3e50;
+    background-color: #7f8c8d;
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+}
+       
+input[type="button"]{
+    border: solid 1px #bdc3c7;
+    /* position: absolute; */
+    height: 38px;
+    width: 150px;
+    font-family: sofia, cursive;
+    font-size: 16px;
+    display: block;
+    /* left: 0; */
+    /* right: 0; */
+    margin: auto;
+    margin-top: 6px;
+    background-color: transparent;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    border-radius: 4px;
+    color: white;
+}
+#dge_span {
+    background-color: rgba(22, 31, 39, 0.6);
+    width: 100px;
+    height: 30px;
+    position: fixed;
+    bottom: 152px;
+    right: 0px;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border: solid 1px transparent;
+    border-top-left-radius: 5px;
+    font-size: 30;
+    text-align: center;
+}
+select#day_select {
+    margin-top: 10px;
+    width: 196px;
+    height: 35px;
+    background-color: rgba(22, 31, 39, 0.84);
+    color: white;
+    text-align: center;
+    font-size: 20;
+}
